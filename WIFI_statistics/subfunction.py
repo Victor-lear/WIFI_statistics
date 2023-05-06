@@ -6,8 +6,8 @@ import csv
 import os
 from datetime import datetime   
 import time
-mongo_url_01 = "mongodb://admin:bmwee8097218@140.118.122.115:30415/"
-mongo_url_02 = "mongodb://admin:bmwee8097218@140.118.122.115:30415/"
+mongo_url_01 = "mongodb://administrator:administrator@140.118.70.40:27017/"
+mongo_url_02 = "mongodb://administrator:administrator@140.118.70.40:27017/"
 def WIFI_LastData(DB, Collection):
     global mongo_url_01,mongo_url_02
     try:
